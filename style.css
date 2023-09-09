@@ -1,0 +1,116 @@
+/*Body*/
+#body {
+    background-color: #1D2A35;
+    color: white;
+}
+.headings {
+    font-size: 150%;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.padding {
+    padding-top: 60px;
+}
+.cards {
+    border: solid;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cards:hover {
+    background-color: green;
+}
+
+/*Media Queries*/
+@media (min-width: 992px) {
+    #intro,#projects {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 576px) {
+    #about_me,#blogs,#contact_me {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+}   
+
+/*Navbar*/
+#dark_btn {
+    border-radius: 50%;
+    background-color: grey;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+/*Intro*/
+#hi {
+    font-size: 60px;
+}
+hr {
+    width: 370px;
+    background-color: white;
+    margin-left: 0px; /*Mandatory*/
+}
+#name {
+    font-size: 100px;
+    line-height: 1.1;    
+}
+#quick_intro {
+    text-align: justify;
+}
+#img {
+    text-align: center;
+}
+#profile_pic {
+    width: 400px;
+    height: 500px; 
+} 
+#profile_pic:hover {
+    transition: 2s;
+    transform: translateX(-20px);
+}
+
+/*About_Me*/
+.about_me {
+    text-align: justify;
+}
+.results {
+    line-height: 0.7;
+}
+
+/*Contact_Me*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    margin-right: 5px;
+}
+.fa-linkedin {
+    font-size: 16px;
+}
+.fa-github {
+    font-size: 16px;
+}
+.contact {
+    text-decoration: none !important;
+    color: white;
+}
+.contact:hover {
+    color: yellow !important;
+}
